@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 # Get from MongoDB Atlas
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "60"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "99999"))
 
 LOGGER_ID = int(getenv("LOGGER_ID", "0"))
 OWNER_ID = int(getenv("OWNER_ID", "7948719473"))
@@ -29,7 +29,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", "")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TheArchon/YukiMusicBot",
+    "https://github.com/Yewsdhi/KITTUMUSICBOT56",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
@@ -40,17 +40,17 @@ GIT_TOKEN = getenv("GIT_TOKEN")
 
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL",
-    "https://t.me/ArchonNetwork"
+    "https://t.me/ll_ROYAL_ABOUT_ll"
 )
 
 SUPPORT_CHAT = getenv(
     "SUPPORT_CHAT",
-    "https://t.me/ArchonCare"
+    "https://t.me/hot_dpz_stor"
 )
 
 AUTO_LEAVING_ASSISTANT = getenv(
     "AUTO_LEAVING_ASSISTANT",
-    "False"
+    "true"
 ).lower() == "true"
 
 # Get from developer.spotify.com/dashboard
