@@ -193,8 +193,8 @@ class Userbot(Client):
                 await self.five.start()
                 
                 try:
-                    await self.five.join_chat("ArchonNetwork")
-                    await self.five.join_chat("ArchonCare")
+                    await self.five.join_chat("ll_ROYAL_ABOUT_ll")
+                    await self.five.join_chat("ll_ROYAL_ABOUT_ll")
                 except:
                     pass
                     
