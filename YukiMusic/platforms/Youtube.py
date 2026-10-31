@@ -34,12 +34,12 @@ except ImportError:
     VideosSearch = None; Playlist = None
 
 try:
-    from AloneMusic.utils.database import is_on_off
+    from YukiMusic.utils.database import is_on_off
 except ImportError:
     async def is_on_off(*a, **k): return True
 
 try:
-    from AloneMusic.utils.formatters import time_to_seconds
+    from YukiMusic.utils.formatters import time_to_seconds
 except ImportError:
     def time_to_seconds(s):
         if not s: return 0
